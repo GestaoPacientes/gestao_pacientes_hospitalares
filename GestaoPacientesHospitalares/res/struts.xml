@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<constant name="struts.enable.DynamicMethodInvocation"
+		value="false" />
+	<constant name="struts.devMode" value="false" />
+
+
+	<package name="default" extends="struts-default" namespace="/">
+
+		<!-- Ao encontrar o mapeamento desejado, ele envia o processamento para action (neste caso,
+		LoginAction no pacote "br.edu.fei.gestaopacientes.action.misc". Dependendo da string retornada
+		pela action é realizado o redirecionamento para um result diferente -->
+		<action name="Login"
+			class="br.edu.fei.gestaopacientes.action.misc.LoginAction">
+			<result name="success">/jsp/principal.jsp</result>
+			<result name="login_invalido">/jsp/login.jsp</result>
+
+		</action>
+	</package>
+</struts>
