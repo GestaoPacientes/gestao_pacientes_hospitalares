@@ -7,3 +7,15 @@ situação dentro de um Hospital.
 
 O projeto é desenvolvido durante as aulas de Engenharia da Computação
 da FEI.
+
+
+GestaoPacientesHospitalares
+=============================
+
+Projeto baseado em Struts 2, pronto para ser adicionado ao Tomcat
+
+
+GestaoPacientesHospitalaresLogic
+=============================
+
+Projeto responsável por lidar com toda a regra de negócio sistema
