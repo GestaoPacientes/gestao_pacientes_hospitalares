@@ -1,0 +1,45 @@
+
+html{
+	background-color:#eeeeee;	
+}
+
+.header{
+	height:150px;
+	background-image:url('../img/header/head_bg.gif');
+	background-repeat:repeat-x;
+	text-align:center;
+}
+
+.separator{
+	height:55px;
+	width:6px;
+	float:left;
+}
+
+.menu{
+	height:55px;
+	margin: 0 auto;
+}
+
+.menu .botao{
+	height:55px;
+	float:left;
+}
+
+.menu .botao .corpo_botao{
+	text-align:center;
+	height:45px;
+	font-family:"Segoe UI";
+	font-size:22pt;
+}
+
+.menu .botao .faixa_botao{
+	height:10px;
+}
+.corpo{
+	
+}
+
+.footer{
+	height:130px;
+}C:\Users\Gabriel\Documents\GitHub\gestao_pacientes_hospitalares\GestaoPacientesHospitalares

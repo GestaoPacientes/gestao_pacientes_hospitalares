@@ -1,5 +1,11 @@
 package br.edu.fei.gestaopacientes.action.misc;
 
+import java.sql.ResultSet;
+
+import br.com.lett.guteDAO.DAOException;
+import br.com.lett.guteDAO.DAOFactory;
+import br.com.lett.guteDAO.DataAccessObject;
+
 import com.opensymphony.xwork2.ActionSupport;
 
 /** 
@@ -19,11 +25,22 @@ public class LoginAction extends ActionSupport{
 
 	/**
 	 * Metodo padrão chamado por toda action caso não seja definido no struts.xml 
+	 * @throws DAOException 
 	 */
-	public String execute() {
+	public String execute() throws Exception {
 
 		// As propriedades já vem preenchidas com seu respectivo nome da tela, e 
 		// aqui podemos obtelas normalmente
+		DataAccessObject dao = DAOFactory.createDAO();
+		
+		ResultSet rs = dao.executeQuery("SELECT 1 FROM USUARIOS WHERE LOGIN = '"+this.getLogin()+"' AND SENHA = '"+this.getSenha()+"';");
+		
+		if(rs.next()){
+			//logado
+		}else{
+			//nao logado
+		}
+		
 		if (this.login.equals("fei") && this.senha.equals("123")) {
 			return "success";
 		} else {
