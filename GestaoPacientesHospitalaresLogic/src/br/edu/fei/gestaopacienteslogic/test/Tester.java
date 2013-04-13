@@ -2,6 +2,12 @@ package br.edu.fei.gestaopacienteslogic.test;
 
 import java.sql.ResultSet;
 
+<<<<<<< HEAD
+=======
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+>>>>>>> origin/Test
 import br.com.lett.guteDAO.DAOFactory;
 import br.com.lett.guteDAO.DataAccessObject;
 
