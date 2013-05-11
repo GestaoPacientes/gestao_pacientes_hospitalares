@@ -31,15 +31,15 @@ public class LoginAction extends ActionSupport{
 
 		// As propriedades já vem preenchidas com seu respectivo nome da tela, e 
 		// aqui podemos obtelas normalmente
-		DataAccessObject dao = DAOFactory.createDAO();
+		//DataAccessObject dao = DAOFactory.createDAO();
 		
-		ResultSet rs = dao.executeQuery("SELECT 1 FROM USUARIOS WHERE LOGIN = '"+this.getLogin()+"' AND SENHA = '"+this.getSenha()+"';");
+		//ResultSet rs = dao.executeQuery("SELECT 1 FROM USUARIOS WHERE LOGIN = '"+this.getLogin()+"' AND SENHA = '"+this.getSenha()+"';");
 		
-		if(rs.next()){
+		/*if(rs.next()){
 			//logado
 		}else{
 			//nao logado
-		}
+		}*/
 		
 		if (this.login.equals("fei") && this.senha.equals("123")) {
 			return "success";

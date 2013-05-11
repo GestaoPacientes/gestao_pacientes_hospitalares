@@ -1,7 +1,6 @@
 <%@ page contentType="text/html; charset=UTF-8"%>
 <%@ taglib prefix="s" uri="/struts-tags"%>
 <html>
-
 <%--
 
 Basicamente a coisa funciona assim, definimos na web.xml que esta é a pagina chamada ao abrir o sistema.

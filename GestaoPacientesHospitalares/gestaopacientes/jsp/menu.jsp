@@ -12,19 +12,8 @@
 <div class="separator"></div>
 
 <div class="botao" id="btnPacientes" style="width:170px;">
-	<div class="corpo_botao" style="color:#03f5ca;">
-		Pacientes
-	</div>
-	<div class="faixa_botao" style="">
-		<div class="nao_selecionado" style="height:3px; background-color:#03f5ca;"></div>
-	</div>
-</div>
-
-<div class="separator"></div>
-
-<div class="botao" id="btnMedicamentos" style="width:260px;">
 	<div class="corpo_botao" style="color:#006ef7;">
-		Medicamentos
+		Pacientes
 	</div>
 	<div class="faixa_botao" style="">
 		<div class="nao_selecionado" style="height:3px; background-color:#006ef7;"></div>
@@ -33,12 +22,23 @@
 
 <div class="separator"></div>
 
-<div class="botao" id="btnDiagnosticos" style="width:220px;">
+<div class="botao" id="btnMedicamentos" style="width:260px;">
 	<div class="corpo_botao" style="color:#f26667;">
-		Diagnosticos
+		Medicamentos
 	</div>
 	<div class="faixa_botao" style="">
 		<div class="nao_selecionado" style="height:3px; background-color:#f26667;"></div>
+	</div>
+</div>
+
+<div class="separator"></div>
+
+<div class="botao" id="btnDiagnosticos" style="width:220px;">
+	<div class="corpo_botao" style="color:#660DDB;">
+		Diagnosticos
+	</div>
+	<div class="faixa_botao" style="">
+		<div class="nao_selecionado" style="height:3px; background-color:#660DDB;"></div>
 	</div>
 </div>
 
