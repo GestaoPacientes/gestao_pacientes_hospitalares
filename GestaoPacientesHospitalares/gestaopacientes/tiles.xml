@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+
+  <definition name="baseLayout" template="/jsp/common/baseLayout.jsp">
+      <put-attribute name="title"  value="Gestão de Pacientes Hospitalares"/>
+      <put-attribute name="header" value="/jsp/common/header.jsp"/>
+      <put-attribute name="menu"   value="/jsp/common/menu.jsp"/>
+      <put-attribute name="body"   value=""/>
+      <put-attribute name="footer"   value="/jsp/common/footer.jsp"/>
+  </definition>
+  
+  <definition name="login" extends="baseLayout">
+      <put-attribute name="menu"   value=""/>
+      <put-attribute name="title"  value="Gestão de Pacientes Hospitalares - Login"/>
+      <put-attribute name="body"   value="/jsp/misc/loginUser.jsp"/>      
+  </definition>
+  
+  <definition name="index" extends="baseLayout">
+      <put-attribute name="menu"   value="/jsp/common/menu.jsp"/>
+      <put-attribute name="title"  value="Gestão de Pacientes Hospitalares - Login"/>
+      <put-attribute name="body"   value=""/>      
+  </definition>
+
+  
+</tiles-definitions>

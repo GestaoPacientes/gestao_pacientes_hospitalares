@@ -1,21 +1,11 @@
 package br.edu.fei.gestaopacienteslogic.test;
 
-import java.sql.ResultSet;
-
-<<<<<<< HEAD
-=======
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-
->>>>>>> origin/Test
-import br.com.lett.guteDAO.DAOFactory;
-import br.com.lett.guteDAO.DataAccessObject;
 
 
 public class Tester {
 	
 	public static void main(String args[]){
-		try {
+		/*try {
 			DataAccessObject dao = DAOFactory.createDAO();
 			
 			ResultSet rs = dao.executeQuery("SELECT * FROM TAB_AULA3");
@@ -29,7 +19,7 @@ public class Tester {
 		} catch(Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}
+		}*/
 		
 	}
 }

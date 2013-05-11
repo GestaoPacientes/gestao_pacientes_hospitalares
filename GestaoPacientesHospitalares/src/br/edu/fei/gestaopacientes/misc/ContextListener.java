@@ -15,19 +15,19 @@ public class ContextListener implements ServletContextListener {
 	public void contextInitialized(ServletContextEvent e) {
 		
 		logger.info(" | ContextListener called [contextInitialized]");
-		logger.info(" | Setting up SACA app");
+		logger.info(" | Setting up GestaoPacientes app");
 		logger.info(" | Calling guteDAO startup");
 		try{
 			new GuteDAO().startup();
 		}catch(Exception daoe){
 			daoe.printStackTrace();
 		}
-		logger.info(" | Done setting up SACA context, we are now up and running!\n");
+		logger.info(" | Done setting up GestaoPacientes context, we are now up and running!\n");
 	}
 
 	public void contextDestroyed(ServletContextEvent e){
 		logger.info(" | ContextListener called [contextDestroyed]");
-		logger.info(" | Shutting down SACA app");
+		logger.info(" | Shutting down GestaoPacientes app");
 		logger.info(" | Calling guteDAO destroy");
 		try{
 			new GuteDAO().destroy();

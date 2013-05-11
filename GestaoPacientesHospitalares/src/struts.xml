@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+
+	<constant name="struts.action.extension" value="do"/> 
+	
+	<constant name="struts.enable.DynamicMethodInvocation"
+		value="false" />
+	<constant name="struts.devMode" value="false" />
+
+	<package name="default" extends="struts-default" namespace="/">
+	
+		<result-types>
+			<result-type name="tiles" class="org.apache.struts2.views.tiles.TilesResult" />
+		</result-types>
+		
+		<interceptors>
+			<interceptor name="login" class="br.edu.fei.gestaopacientes.misc.LoginInterceptor" />
+	        
+	        <interceptor-stack name="defaultLoginStack">
+                <interceptor-ref name="exception"/>
+                <interceptor-ref name="alias"/>
+                <interceptor-ref name="servletConfig"/>
+                <interceptor-ref name="i18n"/>
+                <interceptor-ref name="prepare"/>
+				<interceptor-ref name="login" />
+                <interceptor-ref name="chain"/>
+                <interceptor-ref name="debugging"/>
+                <interceptor-ref name="scopedModelDriven"/>
+                <interceptor-ref name="modelDriven"/>
+                <interceptor-ref name="fileUpload"/>
+                <interceptor-ref name="checkbox"/>
+                <interceptor-ref name="multiselect"/>
+                <interceptor-ref name="staticParams"/>
+                <interceptor-ref name="actionMappingParams"/>
+                <interceptor-ref name="params">
+                  <param name="excludeParams">dojo\..*,^struts\..*</param>
+                </interceptor-ref>
+                <interceptor-ref name="conversionError"/>
+                <interceptor-ref name="validation">
+                    <param name="excludeMethods">input,back,cancel,browse</param>
+                </interceptor-ref>
+                <interceptor-ref name="workflow">
+                    <param name="excludeMethods">input,back,cancel,browse</param>
+                </interceptor-ref>
+            </interceptor-stack>
+	
+		</interceptors>
+		
+		<default-interceptor-ref name="defaultLoginStack" />
+		
+		<default-action-ref name="Index" />
+		
+        <global-results>
+            <result name="login" type="tiles">login</result>
+            <result name="login-success" type="tiles">index</result> 
+        </global-results>
+        	
+        <action name="Index"
+			class="br.edu.fei.gestaopacientes.action.misc.IndexAction"
+			method="execute">
+			<result name="success" type="tiles">index</result>
+		</action>
+		
+        <action name="Paciente"
+			class="br.edu.fei.gestaopacientes.action.PacienteAction"
+			method="execute">
+			<result name="success" type="tiles">index</result>
+		</action>
+		
+        <action name="Medicamentos"
+			class="br.edu.fei.gestaopacientes.action.MedicamentosAction"
+			method="execute">
+			<result name="success" type="tiles">index</result>
+		</action>
+		
+        <action name="Diagnostico"
+			class="br.edu.fei.gestaopacientes.action.DiagnosticoAction"
+			method="execute">
+			<result name="success" type="tiles">index</result>
+		</action>
+		
+        <action name="Consideracoes"
+			class="br.edu.fei.gestaopacientes.action.ConsideracoesAction"
+			method="execute">
+			<result name="success" type="tiles">index</result>
+		</action>
+		
+	</package>
+</struts>

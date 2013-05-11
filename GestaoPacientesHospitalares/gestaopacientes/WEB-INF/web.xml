@@ -4,11 +4,20 @@
 	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
 	id="WebApp_ID" version="3.0">
 	<display-name>GestaoPacientesHospitalares</display-name>
-
+	
+	<context-param>
+	    <param-name> org.apache.tiles.impl.BasicTilesContainer.DEFINITIONS_CONFIG </param-name>
+	    <param-value>/tiles.xml</param-value>
+	</context-param>
+	
 	<listener>
-		<listener-class>br.edu.fei.gestaopacientes.util.ContextListener</listener-class>
+		<listener-class>br.edu.fei.gestaopacientes.misc.ContextListener</listener-class>
 	</listener>
 
+	<listener>
+	    <listener-class>org.apache.struts2.tiles.StrutsTilesListener</listener-class>
+	</listener>
+	
 	<!-- Indica que as páginas passarão pelo struts2 -->
 	<filter>
 		<filter-name>struts2</filter-name>
@@ -30,7 +39,7 @@
 
 	<!-- Indica que a pagina inicial será a login.jsp -->
 	<welcome-file-list>
-		<welcome-file>jsp/login.jsp</welcome-file>
+		<welcome-file></welcome-file>
 	</welcome-file-list>
 
 </web-app>

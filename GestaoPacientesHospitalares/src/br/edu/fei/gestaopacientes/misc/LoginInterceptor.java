@@ -55,10 +55,14 @@ public class LoginInterceptor implements Interceptor{
 	}
 	
 	private boolean processLoginAttempt(HttpServletRequest request,HttpSession session){
-	    String username = request.getParameter ("USERNAME");
 	    String password = request.getParameter ("PASSWORD");
 
-	    return true;
+	    if("1234".equals(password)){   
+	    	request.getSession().setAttribute("USER_LOGGED", "USEROK");
+	    	return true;
+	    }else{
+	    	return false;
+	    }
 	   
 	}
 

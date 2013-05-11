@@ -42,4 +42,25 @@ html{
 
 .footer{
 	height:130px;
-}C:\Users\Gabriel\Documents\GitHub\gestao_pacientes_hospitalares\GestaoPacientesHospitalares
+	float:right; 
+	margin: 25px; 
+	color:rgb(80, 80, 80); 
+	font-family:"Segoe UI";
+	font-size:18pt;
+}
+
+.centralizaDiv{
+	display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 10000px;
+}
+
+.innerCentraliza {
+    display: table;
+    margin: 0 auto;
+}
+
+.nao_selecionado{
+	height:3px; 
+}
