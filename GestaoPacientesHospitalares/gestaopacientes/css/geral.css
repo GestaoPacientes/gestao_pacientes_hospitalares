@@ -1,6 +1,7 @@
 
 html{
 	background-color:#eeeeee;	
+	font-family:"Segoe UI";
 }
 
 .header{
@@ -29,7 +30,6 @@ html{
 .menu .botao .corpo_botao{
 	text-align:center;
 	height:45px;
-	font-family:"Segoe UI";
 	font-size:22pt;
 }
 
@@ -45,7 +45,6 @@ html{
 	float:right; 
 	margin: 25px; 
 	color:rgb(80, 80, 80); 
-	font-family:"Segoe UI";
 	font-size:18pt;
 }
 
@@ -63,4 +62,24 @@ html{
 
 .nao_selecionado{
 	height:3px; 
+}
+
+#faixaTopo{
+	height:60px;
+	width:1160px;
+	font-size:42pt;
+	color:#FFFFFF;
+}
+
+.colorPaciente{
+	background-color:#006ef7;
+}
+.colorMedicamentos{
+	background-color:#f26667;
+}
+.colorConsideracoes{
+	background-color:#dde000;
+}
+.colorDiagnostico{
+	background-color:#660DDB;
 }

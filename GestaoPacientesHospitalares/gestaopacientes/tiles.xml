@@ -25,6 +25,30 @@
       <put-attribute name="title"  value="Gestão de Pacientes Hospitalares - Login"/>
       <put-attribute name="body"   value=""/>      
   </definition>
+  
+  <definition name="paciente" extends="baseLayout">
+      <put-attribute name="menu"   value="/jsp/common/menu.jsp"/>
+      <put-attribute name="title"  value="Gestão de Pacientes Hospitalares - Paciente"/>
+      <put-attribute name="body"   value="/jsp/paciente.jsp"/>      
+  </definition>
+  
+  <definition name="consideracoes" extends="baseLayout">
+      <put-attribute name="menu"   value="/jsp/common/menu.jsp"/>
+      <put-attribute name="title"  value="Gestão de Pacientes Hospitalares - Considerações Médicas"/>
+      <put-attribute name="body"   value="/jsp/consideracoes.jsp"/>      
+  </definition>
+  
+  <definition name="diagnostico" extends="baseLayout">
+      <put-attribute name="menu"   value="/jsp/common/menu.jsp"/>
+      <put-attribute name="title"  value="Gestão de Pacientes Hospitalares - Diagnostico"/>
+      <put-attribute name="body"   value="/jsp/diagnostico.jsp"/>      
+  </definition>
+  
+  <definition name="medicamentos" extends="baseLayout">
+      <put-attribute name="menu"   value="/jsp/common/menu.jsp"/>
+      <put-attribute name="title"  value="Gestão de Pacientes Hospitalares - Medicamentos"/>
+      <put-attribute name="body"   value="/jsp/medicamentos.jsp"/>      
+  </definition>
 
   
 </tiles-definitions>

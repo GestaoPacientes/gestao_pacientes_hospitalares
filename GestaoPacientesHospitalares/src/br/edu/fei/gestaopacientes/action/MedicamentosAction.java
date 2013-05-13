@@ -15,4 +15,16 @@ public class MedicamentosAction extends ActionSupport{
 		return "success";
 	}
 
+	private String pagina = "Medicamentos";
+	private String paginaPresent = "Medicamentos";
+	
+	public String getPagina(){
+		return this.pagina;
+	}
+
+	public String getPaginaPresent(){
+		return this.paginaPresent;
+	}
+	
+	
 }

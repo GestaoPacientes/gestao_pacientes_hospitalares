@@ -68,25 +68,25 @@
         <action name="Paciente"
 			class="br.edu.fei.gestaopacientes.action.PacienteAction"
 			method="execute">
-			<result name="success" type="tiles">index</result>
+			<result name="success" type="tiles">paciente</result>
 		</action>
 		
         <action name="Medicamentos"
 			class="br.edu.fei.gestaopacientes.action.MedicamentosAction"
 			method="execute">
-			<result name="success" type="tiles">index</result>
+			<result name="success" type="tiles">medicamentos</result>
 		</action>
 		
         <action name="Diagnostico"
 			class="br.edu.fei.gestaopacientes.action.DiagnosticoAction"
 			method="execute">
-			<result name="success" type="tiles">index</result>
+			<result name="success" type="tiles">diagnostico</result>
 		</action>
 		
         <action name="Consideracoes"
 			class="br.edu.fei.gestaopacientes.action.ConsideracoesAction"
 			method="execute">
-			<result name="success" type="tiles">index</result>
+			<result name="success" type="tiles">consideracoes</result>
 		</action>
 		
 	</package>

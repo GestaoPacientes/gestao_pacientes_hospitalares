@@ -37,8 +37,10 @@
 		</div>
 
 		<div class="content">
-		
-			<tiles:insertAttribute name="body" />
+			<div id="bodyContainer" class="innerCentraliza" >
+				<div id="faixaTopo" class="color${pagina}">${paginaPresent}</div>
+				<tiles:insertAttribute name="body" />
+			</div>
 		</div>
 		
 		<div class="footer">

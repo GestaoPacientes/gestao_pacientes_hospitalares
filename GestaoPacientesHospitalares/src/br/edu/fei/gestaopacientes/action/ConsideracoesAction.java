@@ -11,6 +11,17 @@ public class ConsideracoesAction extends ActionSupport{
 	/** Serial */
 	private static final long serialVersionUID = -7943571654911514364L;
 	
+	private String pagina = "Consideracoes";
+	private String paginaPresent = "Considerações Médicas";
+	
+	public String getPagina(){
+		return this.pagina;
+	}
+
+	public String getPaginaPresent(){
+		return this.paginaPresent;
+	}
+	
 	public String execute(){
 		return "success";
 	}
