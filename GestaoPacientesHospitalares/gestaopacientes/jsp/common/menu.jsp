@@ -4,9 +4,9 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="tiles" uri="http://tiles.apache.org/tags-tiles"  %>
 
-<div id="menu_container" style="margin: 0 auto; width:1190px; ">
+<div id="menu_container">
 
-<div class="botao" id="btnPaciente" style="width:170px;" onclick="redirectTo('Paciente.do');">
+<div class="botao" id="btnPaciente" style="width:120px;" onclick="redirectTo('Paciente.do');">
 	<div class="corpo_botao" style="color:#006ef7;">
 		Paciente
 	</div>
@@ -17,7 +17,7 @@
 
 <div class="separator"></div>
 
-<div class="botao" id="btnMedicamentos" style="width:260px;" onclick="redirectTo('Medicamentos.do');">
+<div class="botao" id="btnMedicamentos" style="width:210px;" onclick="redirectTo('Medicamentos.do');">
 	<div class="corpo_botao" style="color:#f26667;">
 		Medicamentos
 	</div>
@@ -28,7 +28,7 @@
 
 <div class="separator"></div>
 
-<div class="botao" id="btnDiagnostico" style="width:220px;" onclick="redirectTo('Diagnostico.do');">
+<div class="botao" id="btnDiagnostico" style="width:170px;" onclick="redirectTo('Diagnostico.do');">
 	<div class="corpo_botao" style="color:#660DDB;">
 		Diagnosticos
 	</div>
@@ -39,7 +39,7 @@
 
 <div class="separator"></div>
 
-<div class="botao" id="btnConsideracoes" style="width:350px;" onclick="redirectTo('Consideracoes.do');">
+<div class="botao" id="btnConsideracoes" style="width:300px;" onclick="redirectTo('Consideracoes.do');">
 	<div class="corpo_botao" style="color:#dde000;">
 		Considerações Médicas
 	</div>
@@ -50,7 +50,7 @@
 
 <div class="separator"></div>
 
-<div class="botao" id="btnSair" style="width:150px;" onclick="redirectTo('Index.do?LOGOUT_ATTEMPT=true');">
+<div class="botao" id="btnSair" style="width:100px;" onclick="redirectTo('Index.do?LOGOUT_ATTEMPT=true');">
 	<div class="corpo_botao" style="color:#66cc66;">
 		Sair
 	</div>

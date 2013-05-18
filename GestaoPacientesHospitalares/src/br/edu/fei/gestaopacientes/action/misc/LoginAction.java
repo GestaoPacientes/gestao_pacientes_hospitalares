@@ -5,6 +5,7 @@ import java.sql.ResultSet;
 import br.com.lett.guteDAO.DAOException;
 import br.com.lett.guteDAO.DAOFactory;
 import br.com.lett.guteDAO.DataAccessObject;
+import br.edu.fei.gestaopacienteslogic.logic.AcessoLogic;
 
 import com.opensymphony.xwork2.ActionSupport;
 

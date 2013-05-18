@@ -10,7 +10,10 @@ import br.edu.fei.gestaopacienteslogic.enums.Sexo;
  * @author Gabriel Lett Viviani
  *
  */
-public abstract class Pessoa {
+public class Pessoa {
+	/** Identificador unico da pessoa */
+	private int ID;
+	
 	/** Nome do individou */
 	private String nome;
 	

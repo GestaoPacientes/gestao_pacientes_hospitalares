@@ -24,6 +24,28 @@ public enum TipoSanguineo {
 		this.descicao = descricao;
 		
 	}
+	
+	public static TipoSanguineo parse(String sigla){
+		if("O+".equals(sigla)){
+			return TipoSanguineo.Op;
+		}else if("O-".equals(sigla)){
+			return TipoSanguineo.On;
+		}else if("A+".equals(sigla)){
+			return TipoSanguineo.Ap;
+		}else if("A-".equals(sigla)){
+			return TipoSanguineo.An;
+		}else if("B+".equals(sigla)){
+			return TipoSanguineo.Bp;
+		}else if("B-".equals(sigla)){
+			return TipoSanguineo.Bn;
+		}else if("AB+".equals(sigla)){
+			return TipoSanguineo.ABp;
+		}else if("AB-".equals(sigla)){
+	    	return TipoSanguineo.ABn;
+	    }
+		
+		return null;
+	}
 
 	/**
 	 * @return the rh

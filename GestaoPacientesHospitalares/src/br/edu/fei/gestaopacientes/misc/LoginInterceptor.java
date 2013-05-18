@@ -6,6 +6,8 @@ import javax.servlet.http.HttpSession;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import br.edu.fei.gestaopacienteslogic.logic.AcessoLogic;
+
 import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.ActionInvocation;
 import com.opensymphony.xwork2.interceptor.Interceptor;
@@ -55,15 +57,17 @@ public class LoginInterceptor implements Interceptor{
 	}
 	
 	private boolean processLoginAttempt(HttpServletRequest request,HttpSession session){
-	    String password = request.getParameter ("PASSWORD");
+	    String key = request.getParameter ("PASSWORD");
 
-	    if("1234".equals(password)){   
-	    	request.getSession().setAttribute("USER_LOGGED", "USEROK");
+	    AcessoLogic acessoLogic = new AcessoLogic();
+		
+	    Integer idPaciente = acessoLogic.loginChave(key);
+		if(idPaciente!=null){
+			request.getSession().setAttribute("USER_LOGGED", idPaciente);
 	    	return true;
-	    }else{
+		}else{
 	    	return false;
-	    }
-	   
+		}
 	}
 
 	@Override

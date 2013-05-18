@@ -37,10 +37,16 @@
 		</div>
 
 		<div class="content">
-			<div id="bodyContainer" class="innerCentraliza" >
-				<div id="faixaTopo" class="color${pagina}">${paginaPresent}</div>
-				<tiles:insertAttribute name="body" />
+		
+			<div id="faixaTopoContainer" class="color${pagina}">
+				<div id="bodyContainer" class="innerCentraliza" >
+					<div id="faixaTopo">${paginaPresent}</div>
+				</div>
 			</div>
+			<div id="bodyContainer" class="innerCentraliza" >
+				<tiles:insertAttribute name="body" />
+				</div>
+				
 		</div>
 		
 		<div class="footer">
