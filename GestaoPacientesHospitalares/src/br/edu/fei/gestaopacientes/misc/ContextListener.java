@@ -17,11 +17,11 @@ public class ContextListener implements ServletContextListener {
 		logger.info(" | ContextListener called [contextInitialized]");
 		logger.info(" | Setting up GestaoPacientes app");
 		logger.info(" | Calling guteDAO startup");
-		/*try{
+		try{
 			new GuteDAO().startup();
 		}catch(Exception daoe){
 			daoe.printStackTrace();
-		}*/
+		}
 		logger.info(" | Done setting up GestaoPacientes context, we are now up and running!\n");
 	}
 
@@ -29,11 +29,11 @@ public class ContextListener implements ServletContextListener {
 		logger.info(" | ContextListener called [contextDestroyed]");
 		logger.info(" | Shutting down GestaoPacientes app");
 		logger.info(" | Calling guteDAO destroy");
-		/*try{
+		try{
 			new GuteDAO().destroy();
 		}catch(Exception daoe){
 			daoe.printStackTrace();
-		}*/
+		}
 		logger.info(" | Done destroying app\n");
 	}
 }

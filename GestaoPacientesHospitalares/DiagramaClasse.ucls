@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.2" icons="true" always-add-relationships="true" generalizations="true" realizations="true" 
+  associations="true" dependencies="true" nesting-relationships="true">  
+  <class id="1" language="java" name="br.edu.fei.gestaopacientes.misc.ContextListener" 
+    project="GestaoPacientesHospitalares" 
+    file="/GestaoPacientesHospitalares/src/br/edu/fei/gestaopacientes/misc/ContextListener.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="117" width="241" x="1529" y="701"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="br.edu.fei.gestaopacientes.action.ConsideracoesAction" 
+    project="GestaoPacientesHospitalares" 
+    file="/GestaoPacientesHospitalares/src/br/edu/fei/gestaopacientes/action/ConsideracoesAction.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="225" width="355" x="1233" y="220"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="br.edu.fei.gestaopacientes.action.misc.LoginAction" 
+    project="GestaoPacientesHospitalares" 
+    file="/GestaoPacientesHospitalares/src/br/edu/fei/gestaopacientes/action/misc/LoginAction.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="225" width="172" x="827" y="220"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <package id="4" language="java" name="br.edu.fei.gestaopacientes.action.misc" project="GestaoPacientesHospitalares" 
+    file="/GestaoPacientesHospitalares/src/br/edu/fei/gestaopacientes/action/misc" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="243" x="1233" y="37"/>    
+    <display autosize="true" stereotype="true" accessors="true"/>  
+  </package>  
+  <class id="5" language="java" name="br.edu.fei.gestaopacientes.action.misc.IndexAction" 
+    project="GestaoPacientesHospitalares" 
+    file="/GestaoPacientesHospitalares/src/br/edu/fei/gestaopacientes/action/misc/IndexAction.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="117" width="172" x="615" y="220"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="br.edu.fei.gestaopacientes.action.DiagnosticoAction" 
+    project="GestaoPacientesHospitalares" 
+    file="/GestaoPacientesHospitalares/src/br/edu/fei/gestaopacientes/action/DiagnosticoAction.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="225" width="247" x="1929" y="220"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <package id="7" language="java" name="br.edu.fei.gestaopacientes.action" project="GestaoPacientesHospitalares" 
+    file="/GestaoPacientesHospitalares/src/br/edu/fei/gestaopacientes/action" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="212" x="2197" y="37"/>    
+    <display autosize="true" stereotype="true" accessors="true"/>  
+  </package>  
+  <class id="8" language="java" name="br.edu.fei.gestaopacientes.action.PacienteAction" 
+    project="GestaoPacientesHospitalares" 
+    file="/GestaoPacientesHospitalares/src/br/edu/fei/gestaopacientes/action/PacienteAction.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="225" width="154" x="1039" y="220"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="br.edu.fei.gestaopacientes.action.MedicamentosAction" 
+    project="GestaoPacientesHospitalares" 
+    file="/GestaoPacientesHospitalares/src/br/edu/fei/gestaopacientes/action/MedicamentosAction.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="225" width="261" x="1628" y="220"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <package id="10" language="java" name="br.edu.fei.gestaopacientes.misc" project="GestaoPacientesHospitalares" 
+    file="/GestaoPacientesHospitalares/src/br/edu/fei/gestaopacientes/misc" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="205" x="1284" y="701"/>    
+    <display autosize="true" stereotype="true" accessors="true"/>  
+  </package>  
+  <class id="11" language="java" name="br.edu.fei.gestaopacientes.misc.LoginInterceptor" 
+    project="GestaoPacientesHospitalares" 
+    file="/GestaoPacientesHospitalares/src/br/edu/fei/gestaopacientes/misc/LoginInterceptor.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="171" width="332" x="912" y="701"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="br.edu.fei.gestaopacienteslogic.bean.ConsideracoesMedicas" 
+    project="GestaoPacientesHospitalares" 
+    file="C:/Users/Gabriel/git/gestao_pacientes_hospitalares/GestaoPacientesHospitalares/gestaopacientes/WEB-INF/lib/GestaoPacientesLogic.jar" 
+    binary="true" corner="BOTTOM_RIGHT">    
+    <position height="243" width="163" x="709" y="701"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="br.edu.fei.gestaopacienteslogic.logic.PacienteLogic" 
+    project="GestaoPacientesHospitalares" 
+    file="C:/Users/Gabriel/git/gestao_pacientes_hospitalares/GestaoPacientesHospitalares/gestaopacientes/WEB-INF/lib/GestaoPacientesLogic.jar" 
+    binary="true" corner="BOTTOM_RIGHT">    
+    <position height="189" width="368" x="1810" y="701"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="br.edu.fei.gestaopacienteslogic.bean.Diagnostico" 
+    project="GestaoPacientesHospitalares" 
+    file="C:/Users/Gabriel/git/gestao_pacientes_hospitalares/GestaoPacientesHospitalares/gestaopacientes/WEB-INF/lib/GestaoPacientesLogic.jar" 
+    binary="true" corner="BOTTOM_RIGHT">    
+    <position height="135" width="163" x="2442" y="701"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="com.opensymphony.xwork2.ActionSupport" project="GestaoPacientesHospitalares" 
+    file="C:/Users/Gabriel/git/gestao_pacientes_hospitalares/GestaoPacientesHospitalares/gestaopacientes/WEB-INF/lib/xwork-core-2.3.8.jar" 
+    binary="true" corner="BOTTOM_RIGHT">    
+    <position height="53" width="127" x="1233" y="127"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="br.edu.fei.gestaopacienteslogic.bean.Medicamento" 
+    project="GestaoPacientesHospitalares" 
+    file="C:/Users/Gabriel/git/gestao_pacientes_hospitalares/GestaoPacientesHospitalares/gestaopacientes/WEB-INF/lib/GestaoPacientesLogic.jar" 
+    binary="true" corner="BOTTOM_RIGHT">    
+    <position height="459" width="184" x="2218" y="701"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="br.edu.fei.gestaopacienteslogic.bean.Paciente" 
+    project="GestaoPacientesHospitalares" 
+    file="C:/Users/Gabriel/git/gestao_pacientes_hospitalares/GestaoPacientesHospitalares/gestaopacientes/WEB-INF/lib/GestaoPacientesLogic.jar" 
+    binary="true" corner="BOTTOM_RIGHT">    
+    <position height="459" width="214" x="252" y="701"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="18" language="java" name="org.apache.logging.log4j.Logger" project="GestaoPacientesHospitalares" 
+    file="C:/Users/Gabriel/git/gestao_pacientes_hospitalares/GestaoPacientesHospitalares/gestaopacientes/WEB-INF/lib/log4j-api-2.0-beta4.jar" 
+    binary="true" corner="BOTTOM_RIGHT">    
+    <position height="58" width="110" x="1383" y="1200"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <interface id="19" language="java" name="com.opensymphony.xwork2.interceptor.Interceptor" 
+    project="GestaoPacientesHospitalares" 
+    file="C:/Users/Gabriel/git/gestao_pacientes_hospitalares/GestaoPacientesHospitalares/gestaopacientes/WEB-INF/lib/xwork-core-2.3.8.jar" 
+    binary="true" corner="BOTTOM_RIGHT">    
+    <position height="58" width="174" x="1098" y="1200"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="false" package="false" protected="false" private="false"/>    
+    </display>  
+  </interface>  
+  <class id="20" language="java" name="br.edu.fei.gestaopacienteslogic.bean.Medico" 
+    project="GestaoPacientesHospitalares" 
+    file="C:/Users/Gabriel/git/gestao_pacientes_hospitalares/GestaoPacientesHospitalares/gestaopacientes/WEB-INF/lib/GestaoPacientesLogic.jar" 
+    binary="true" corner="BOTTOM_RIGHT">    
+    <position height="81" width="163" x="506" y="1200"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="br.edu.fei.gestaopacienteslogic.bean.Pessoa" 
+    project="GestaoPacientesHospitalares" 
+    file="C:/Users/Gabriel/git/gestao_pacientes_hospitalares/GestaoPacientesHospitalares/gestaopacientes/WEB-INF/lib/GestaoPacientesLogic.jar" 
+    binary="true" corner="BOTTOM_RIGHT">    
+    <position height="441" width="172" x="292" y="220"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="22" language="java" name="br.edu.fei.gestaopacienteslogic.enums.TipoSanguineo" 
+    project="GestaoPacientesHospitalares" 
+    file="C:/Users/Gabriel/git/gestao_pacientes_hospitalares/GestaoPacientesHospitalares/gestaopacientes/WEB-INF/lib/GestaoPacientesLogic.jar" 
+    binary="true" corner="BOTTOM_RIGHT">    
+    <position height="477" width="205" x="252" y="1200"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </enumeration>  
+  <enumeration id="23" language="java" name="br.edu.fei.gestaopacienteslogic.enums.Sexo" 
+    project="GestaoPacientesHospitalares" 
+    file="C:/Users/Gabriel/git/gestao_pacientes_hospitalares/GestaoPacientesHospitalares/gestaopacientes/WEB-INF/lib/GestaoPacientesLogic.jar" 
+    binary="true" corner="BOTTOM_RIGHT">    
+    <position height="297" width="171" x="41" y="701"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="24" language="java" name="br.edu.fei.gestaopacienteslogic.bean.Funcionario" 
+    project="GestaoPacientesHospitalares" 
+    file="C:/Users/Gabriel/git/gestao_pacientes_hospitalares/GestaoPacientesHospitalares/gestaopacientes/WEB-INF/lib/GestaoPacientesLogic.jar" 
+    binary="true" corner="BOTTOM_RIGHT">    
+    <position height="135" width="163" x="506" y="701"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <dependency id="25">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="19"/>  
+  </dependency>  
+  <association id="26">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="27" name="logger"/>      
+      <multiplicity id="28" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="29">    
+    <bendpoint x="2329" y="127"/>    
+    <bendpoint x="2329" y="220"/>    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <association id="30">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="31" name="logger"/>      
+      <multiplicity id="32" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="33">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="24"/>  
+  </generalization>  
+  <realization id="34">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="19"/>  
+  </realization>  
+  <dependency id="35">    
+    <bendpoint x="584" y="127"/>    
+    <bendpoint x="584" y="220"/>    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="12"/>  
+  </dependency>  
+  <association id="36">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="37" name="paciente"/>      
+      <multiplicity id="38" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="39">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="18"/>  
+  </dependency>  
+  <generalization id="40">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="15"/>  
+  </generalization>  
+  <dependency id="41">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="15"/>  
+  </dependency>  
+  <association id="42">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="43" name="pacLogic"/>      
+      <multiplicity id="44" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="45">    
+    <bendpoint x="261" y="127"/>    
+    <bendpoint x="261" y="220"/>    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="17"/>  
+  </dependency>  
+  <generalization id="46">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="15"/>  
+  </generalization>  
+  <association id="47">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="48" name="reponsavel"/>      
+      <multiplicity id="49" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="50">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="15"/>  
+  </generalization>  
+  <generalization id="51">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="15"/>  
+  </generalization>  
+  <association id="52">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="53" name="logicPaciente"/>      
+      <multiplicity id="54" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="55">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="56" name="diagnosticos"/>      
+      <multiplicity id="57" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="58">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="21"/>  
+  </generalization>  
+  <association id="59">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="60" name="medico"/>      
+      <multiplicity id="61" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="62">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="15"/>  
+  </generalization>  
+  <dependency id="63">    
+    <bendpoint x="2227" y="127"/>    
+    <bendpoint x="2227" y="220"/>    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="16"/>  
+  </dependency>  
+  <dependency id="64">    
+    <bendpoint x="2206" y="127"/>    
+    <bendpoint x="2206" y="220"/>    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <association id="65">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="66" name="medico"/>      
+      <multiplicity id="67" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="68">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="69" name="pacLogic"/>      
+      <multiplicity id="70" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="71">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="15"/>  
+  </generalization>  
+  <association id="72">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="73" name="consideracoesMedicas"/>      
+      <multiplicity id="74" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="75">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="76" name="tipoSanguineo"/>      
+      <multiplicity id="77" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="78">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="15"/>  
+  </dependency>  
+  <association id="79">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="80" name="sexo"/>      
+      <multiplicity id="81" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="82">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="83" name="logger"/>      
+      <multiplicity id="84" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="85">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="86" name="pacLogic"/>      
+      <multiplicity id="87" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="88">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="89" name="medicamentos"/>      
+      <multiplicity id="90" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="91">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="21"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

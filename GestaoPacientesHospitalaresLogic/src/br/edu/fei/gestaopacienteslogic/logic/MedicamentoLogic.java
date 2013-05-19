@@ -7,15 +7,18 @@ import br.edu.fei.gestaopacienteslogic.bean.Medicamento;
 public class MedicamentoLogic {
 
 	public Medicamento buildMedicamento (DAOResult dr) throws DAOException{
+		return this.buildMedicamento(dr, "");
+	}
+	public Medicamento buildMedicamento (DAOResult dr, String prefixoTabela) throws DAOException{
 		
 		Medicamento medicamento = new Medicamento();
-		medicamento.setID(dr.getInt("ID"));
-		medicamento.setNome(dr.getString("NOME"));
-		medicamento.setEmpresa(dr.getString("EMPRESA"));
-		medicamento.setComposicao(dr.getString("COMPOSICAO"));
-		medicamento.setQuantidade(dr.getInt("QTDE"));
-		medicamento.setModoUso(dr.getString("MODO_USO"));
-		medicamento.setContraIndicacoes(dr.getString("CONTRA_INDICACOES"));
+		medicamento.setID(dr.getInt(prefixoTabela+"ID"));
+		medicamento.setNome(dr.getString(prefixoTabela+"NOME"));
+		medicamento.setEmpresa(dr.getString(prefixoTabela+"EMPRESA"));
+		medicamento.setComposicao(dr.getString(prefixoTabela+"COMPOSICAO"));
+		medicamento.setQuantidade(dr.getInt(prefixoTabela+"QTDE"));
+		medicamento.setModoUso(dr.getString(prefixoTabela+"MODO_USO"));
+		medicamento.setContraIndicacoes(dr.getString(prefixoTabela+"CONTRA_INDICACOES"));
 		
 		return medicamento;
 	}

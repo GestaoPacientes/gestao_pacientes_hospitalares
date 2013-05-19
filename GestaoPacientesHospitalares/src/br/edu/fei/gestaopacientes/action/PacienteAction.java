@@ -19,6 +19,7 @@ public class PacienteAction extends ActionSupport{
 
 	private String pagina = "Paciente";
 	private String paginaPresent = "Paciente";
+	private PacienteLogic logicPaciente = new PacienteLogic();
 	
 	public String getPagina(){
 		return this.pagina;
@@ -30,7 +31,6 @@ public class PacienteAction extends ActionSupport{
 	
 	public String execute(){
 		Integer idPaciente = (Integer) ActionContext.getContext().getSession().get("USER_LOGGED");
-		PacienteLogic logicPaciente = new PacienteLogic();
 		this.setPaciente(logicPaciente.getPaciente(idPaciente));
 		
 		return "success";

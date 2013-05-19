@@ -12,7 +12,7 @@ import br.edu.fei.gestaopacienteslogic.enums.Sexo;
  */
 public class Pessoa {
 	/** Identificador unico da pessoa */
-	private int ID;
+	private Integer ID;
 	
 	/** Nome do individou */
 	private String nome;
@@ -28,6 +28,10 @@ public class Pessoa {
 	
 	/** Sexo do individuo */
 	private Sexo sexo;
+	
+	/** Telefone do paciente */
+	private String telefone;
+	
 	/**
 	 * @return the nome
 	 */
@@ -87,6 +91,31 @@ public class Pessoa {
 	 */
 	public void setSexo(Sexo sexo) {
 		this.sexo = sexo;
+	}
+	
+	/**
+	 * @return the telefone
+	 */
+	public String getTelefone() {
+		return telefone;
+	}
+	/**
+	 * @param telefone the telefone to set
+	 */
+	public void setTelefone(String telefone) {
+		this.telefone = telefone;
+	}
+	/**
+	 * @return the iD
+	 */
+	public Integer getID() {
+		return ID;
+	}
+	/**
+	 * @param iD the iD to set
+	 */
+	public void setID(Integer iD) {
+		ID = iD;
 	}
 
 }

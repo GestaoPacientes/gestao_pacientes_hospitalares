@@ -29,9 +29,6 @@ public class Paciente extends Pessoa{
 	/** Alergias do paciente */
 	private String alergia;
 	
-	/** Telefone do paciente */
-	private String telefone;
-	
 	/** Médico do paciente */
 	private Medico medico;
 	
@@ -104,18 +101,7 @@ public class Paciente extends Pessoa{
 	public void setAlergia(String alergia) {
 		this.alergia = alergia;
 	}
-	/**
-	 * @return the telefone
-	 */
-	public String getTelefone() {
-		return telefone;
-	}
-	/**
-	 * @param telefone the telefone to set
-	 */
-	public void setTelefone(String telefone) {
-		this.telefone = telefone;
-	}
+
 	/**
 	 * @return the medico
 	 */
