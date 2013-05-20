@@ -56,5 +56,20 @@
 	  <fileset dir="${dist}"/>
 	</copy>
   </target>
+	
+   <target name="doc" description="generate documentation">
+	 <javadoc packagenames="br.*"
+	           sourcepath="src"
+	           defaultexcludes="yes"
+	           destdir="docs"
+	           author="true"
+	           version="true"
+	           use="true"
+	           windowtitle="GestaoPacientes">
+	    <doctitle><![CDATA[<h1>GestaoPacientes</h1>]]></doctitle>
+	    <bottom><![CDATA[<i>Copyright &#169; 2013 Equipe GERIPAC. All Rights Reserved.</i>]]></bottom>
+	    <tag name="todo" scope="all" description="To do:"/>
+	  </javadoc>
+   	</target>
 
 </project>

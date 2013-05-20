@@ -1,5 +1,10 @@
 package br.edu.fei.gestaopacienteslogic.enums;
 
+/**
+ * Representa o sexos de uma pessoa
+ * @author Gabriel Lett Viviani <gm.lett@gmail.com>
+ *
+ */
 public enum Sexo {
 	MASCULINO("Masculino","M"),
 	FEMININO("Feminino","F");

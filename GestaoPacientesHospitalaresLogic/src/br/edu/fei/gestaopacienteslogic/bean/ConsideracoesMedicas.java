@@ -3,6 +3,11 @@ package br.edu.fei.gestaopacienteslogic.bean;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+/** 
+ * Representa as considerações médicas
+ * @author Gabriel Lett Viviani <gm.lett@gmail.com>
+ *
+ */
 public class ConsideracoesMedicas {
 
 	/** Descrição dada pelo médico */

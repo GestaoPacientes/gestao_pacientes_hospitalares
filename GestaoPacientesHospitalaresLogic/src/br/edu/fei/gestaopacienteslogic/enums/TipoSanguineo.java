@@ -1,5 +1,10 @@
 package br.edu.fei.gestaopacienteslogic.enums;
 
+/**
+ * Representa os diferentes tipos sanguineos de um paciente
+ * @author Gabriel Lett Viviani <gm.lett@gmail.com>
+ *
+ */
 public enum TipoSanguineo {
 	Op(true, "O+", "O Positivo"),
 	On(true, "O-", "O Negativo"),

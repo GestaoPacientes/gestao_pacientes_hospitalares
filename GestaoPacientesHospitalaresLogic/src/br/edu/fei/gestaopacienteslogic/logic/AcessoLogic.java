@@ -8,10 +8,22 @@ import br.com.lett.guteDAO.DAOFactory;
 import br.com.lett.guteDAO.DAOResult;
 import br.com.lett.guteDAO.DataAccessObject;
 
+/**
+ * Classe encarregada de tratar da logica do acesso ao sistema 
+ * efetuado pelo usuário
+ * @author Gabriel Lett Viviani <gm.lett@gmail.com>
+ *
+ */
 public class AcessoLogic {
 
+	/** log4j */
 	static Logger logger = LogManager.getLogger(AcessoLogic.class.getName());
 	
+	/**
+	 * Obtem o id do usuário dada uma chave
+	 * @param chave Chave digitada
+	 * @return Integer id do usuario
+	 */
 	public Integer loginChave(String chave){
 		Integer idPaciente = null;
 		DataAccessObject dao = null;

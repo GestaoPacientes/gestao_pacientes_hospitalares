@@ -172,7 +172,12 @@ public class PacienteLogic {
 		
 		return arrConsid;
 	}
-	
+
+	/**
+	 * Obtem uma lista de Diagnosticos dado determinado paciente
+	 * @param idPaciente ID do paciente
+	 * @return ArrayList[Diagnostico] Lista de diagnosticos do paciente
+	 */
 	public ArrayList<Diagnostico> getDiagnosticos(Integer idPaciente){
 		ArrayList<Diagnostico> arrDiag = new ArrayList<Diagnostico>();
 		

@@ -1,5 +1,10 @@
 package br.edu.fei.gestaopacienteslogic.bean;
 
+/**
+ * Bean dos medicamentos do paciente
+ * @author Gabriel Lett Viviani <gm.lett@gmail.com>
+ *
+ */
 public class Medicamento {
 
 	/** Identificador unico na base do medicamento */
